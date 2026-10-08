@@ -11,106 +11,99 @@ A collection of data analytics projects focused on data cleaning, exploratory da
 - Seaborn
 - Jupyter Notebook
 - Microsoft Excel
+- Pivot Tables
 - Data Cleaning
-- Exploratory Data Analysis (EDA)
 - Data Visualization
-- Dashboard Development
-- Time Series Analysis
+- Exploratory Data Analysis
+- Data Analysis
 - Sales Forecasting
 
 ## Projects
 
 ### 1. Sales Data Cleaning & Analysis
-
 **Tools:** Microsoft Excel
 
-A data cleaning and analysis project focused on preparing sales data, identifying data quality issues, and organizing the dataset for analysis.
+Cleaned and organized a sales dataset by identifying duplicate records, standardizing dates and location names, and preparing the data for analysis.
 
-**Key Work:**
-- Identified and handled duplicate records.
-- Standardized date formats and location names.
-- Cleaned and organized sales data.
-- Created summaries and visualizations to understand sales patterns.
+**Key areas:**
+- Data cleaning and formatting
+- Duplicate record identification
+- Data standardization
+- Sales summaries and visualizations
+
+**[View Project →](./01_Sales_Data_Cleaning_Analysis)**
 
 ---
 
-### 2. E-Commerce Sales Dashboard
+### 2. E-commerce Sales Dashboard
+**Tools:** Microsoft Excel, Pivot Tables, Charts
 
-**Tools:** Microsoft Excel
+Analyzed e-commerce sales data and created an Excel dashboard to present key sales metrics and business insights.
 
-An Excel dashboard project focused on analyzing e-commerce sales performance and presenting key business metrics.
+**Key areas:**
+- Data cleaning
+- Duplicate record analysis
+- Pivot Tables
+- KPI calculation
+- Data visualization
+- Dashboard development
 
-**Key Work:**
-- Cleaned and prepared the sales dataset.
-- Used PivotTables to summarize sales information.
-- Analyzed sales across different categories and regions.
-- Created dashboard metrics and visualizations.
-- Presented key sales information in a structured dashboard.
+**Key results:**
+- Total Sales: 26,285,550
+- Total Quantity Sold: 936
+- Average Order Sales: 21,905
+
+**[View Project →](./02_Ecommerce_Sales_Dashboard)**
 
 ---
 
 ### 3. Customer Churn Analysis
-
 **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
-An exploratory data analysis project focused on understanding customer churn patterns using a telecommunications customer dataset.
+Analyzed telecommunications customer data to understand customer churn patterns and compare characteristics of customers who stayed and those who churned.
 
-**Dataset:** 7,032 customers
+**Key areas:**
+- Data cleaning
+- Exploratory data analysis
+- Churn analysis
+- Customer segmentation
+- Data visualization
 
-**Key Work:**
-- Checked and cleaned the dataset.
-- Analyzed the distribution of customers who stayed and churned.
-- Compared tenure and monthly charges between customer groups.
-- Analyzed churn across contracts, payment methods, internet services, technical support, and online security.
-- Used correlation analysis to examine relationships between numerical variables.
-- Created visualizations to communicate important churn patterns.
+**Key results:**
+- Total Customers: 7,032
+- Overall Churn Rate: 26.58%
+- Average Tenure of Stayed Customers: 37.65 months
+- Average Tenure of Churned Customers: 17.98 months
 
-**Key Result:**
-- Overall churn rate: **26.58%**
+**[View Project →](./03_Customer_Churn_Analysis)**
 
 ---
 
 ### 4. Sales Forecasting & Analysis
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
-**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels, Scikit-learn, Jupyter Notebook
+Analyzed historical Superstore sales data to identify sales trends, profitability patterns, category performance, and forecast future monthly sales.
 
-A sales analysis and forecasting project using the Superstore dataset to understand historical sales patterns and estimate future monthly sales.
+**Key areas:**
+- Exploratory data analysis
+- Time-series analysis
+- Sales trend analysis
+- Profitability analysis
+- Sales forecasting
+- Forecast evaluation
 
-**Dataset:** 9,994 sales records
+**Key results:**
+- Total Sales: 2,297,200.86
+- Total Profit: 286,397.02
+- Total Quantity: 37,873
+- 6-Month Forecast Total: 363,796.18
+- Forecast MAE: 7,319.85
+- Forecast RMSE: 9,083.47
 
-**Key Work:**
-- Analyzed sales trends from 2014 to 2017.
-- Compared sales and profit across categories and regions.
-- Analyzed sales performance across different sub-categories.
-- Examined the relationship between discount and profit.
-- Used a 3-month moving average to study sales trends.
-- Built a Holt-Winters Exponential Smoothing model for sales forecasting.
-- Evaluated the model using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+**[View Project →](./04_Sales_Forecasting_Analysis)**
 
-**Key Results:**
-- Total Sales: **$2.30M**
-- Total Profit: **$286.40K**
-- Total Quantity Sold: **37,873**
-- Forecasted Sales for Next 6 Months: **$363.80K**
-- MAE: **7,319.85**
-- RMSE: **9,083.47**
+---
 
-## Skills Demonstrated
+## About
 
-- Data Cleaning and Preparation
-- Exploratory Data Analysis
-- Data Visualization
-- Excel Dashboard Development
-- Python Data Analysis
-- Statistical Analysis
-- Business Data Analysis
-- Time Series Analysis
-- Sales Forecasting
-- Communicating Data Insights
-
-## Currently Learning
-
-- Python for Data Analytics
-- SQL
-- Data Visualization
-- Machine Learning Fundamentals
+I am an undergraduate student building practical skills in data analytics through hands-on projects using Python and Microsoft Excel. I am interested in applying data analysis and visualization techniques to real-world datasets and business problems.
